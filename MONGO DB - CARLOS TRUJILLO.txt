@@ -1,0 +1,146 @@
+----------------- ABRIR BASE DE DATOS
+use bd_carlos_Trujillo
+
+---------------- MOSTRAR LAS COLECCIONES
+show collections
+
+-----------------SE INGRESARON LOS DATOS A LAS DIFERENTES COLECCIONES: CLIENTES (950 DATOS) - ZONAS (1 DATO) - PRODUCTOS (1 DATO) - PEDIDOS (1 DATO)
+
+-----------------Ejemplo de los datos ingresados en la coleccion CLIENTES
+
+bd_carlos_trujillo> var Dato3 =  {ID_Ciente: "C1062",Nombre_completo: "Fabio Carnero Boix",Fecha_Nacimiento: "1983-05-04",Direccion: "Miami, FL 33165",Telefono: "(473) 353-4079",Correo_Electronico: "pgolle@yahoo.com",Grupo_Cliente: "B"}
+
+bd_carlos_trujillo> var Dato4 =  {ID_Ciente: "C1069",Nombre_completo: "Noemí Carpio Seco",Fecha_Nacimiento: "1973-03-08",Direccion: "London",Telefono: "(569) 583-5618",Correo_Electronico: "linuxhack@msn.com",Grupo_Cliente: "B"}
+
+bd_carlos_trujillo> var Dato5 =  {ID_Ciente: "C1089",Nombre_completo: "Gerardo Tomé Real",Fecha_Nacimiento: "1997-06-05",Direccion: "275 Rock Maple Avenue",Telefono: "(503) 283-5457",Correo_Electronico: "jrifkin@verizon.net",Grupo_Cliente: "B"}
+
+bd_carlos_trujillo> var Dato6 =  {ID_Ciente: "C1112",Nombre_completo: "Fausto Montero Sanmartín",Fecha_Nacimiento: "1999-10-12",Direccion: "EC06 3FQ",Telefono: "(809) 618-5906",Correo_Electronico: "helger@yahoo.ca",Grupo_Cliente: "B"}
+
+bd_carlos_trujillo> var Dato7 =  {ID_Ciente: "C1114",Nombre_completo: "Luisa Saldaña Piñeiro",Fecha_Nacimiento: "1998-04-05",Direccion: "Santa Ana, CA 92704",Telefono: "(256) 681-2246",Correo_Electronico: "sfoskett@att.net",Grupo_Cliente: "D"}
+
+bd_carlos_trujillo> var Dato8 =  {ID_Ciente: "C1116",Nombre_completo: "Concepción Catalán",Fecha_Nacimiento: "1979-11-03",Direccion: "London",Telefono: "(947) 361-6058",Correo_Electronico: "carcus@mac.com",Grupo_Cliente: "A"}
+
+bd_carlos_trujillo> var Dato9 =  {ID_Ciente: "C1118",Nombre_completo: "Loreto Burgos",Fecha_Nacimiento: "1980-05-20",Direccion: "St. Martins, NB E5R 1J6",Telefono: "(399) 450-6042",Correo_Electronico: "redingtn@hotmail.com",Grupo_Cliente: "C"}
+
+bd_carlos_trujillo> var Dato10 =  {ID_Ciente: "C1123",Nombre_completo: "Hernando Garay",Fecha_Nacimiento: "1995-10-05",Direccion: "NW01 6ER",Telefono: "(556) 265-3355",Correo_Electronico: "martyloo@sbcglobal.net",Grupo_Cliente: "C"}
+
+bd_carlos_trujillo> var Dato11 =  {ID_Ciente: "C1124",Nombre_completo: "Tecla Aparicio Boada",Fecha_Nacimiento: "1978-03-30",Direccion: "517 Stanley Road",Telefono: "(288) 958-3534",Correo_Electronico: "jnolan@verizon.net",Grupo_Cliente: "D"}
+
+bd_carlos_trujillo> var Dato12 =  {ID_Ciente: "C1139",Nombre_completo: "Anselma Rodriguez Bernad",Fecha_Nacimiento: "1984-07-28",Direccion: "21 Manor Road",Telefono: "(865) 416-9258",Correo_Electronico: "crandall@comcast.net",Grupo_Cliente:
+ "D"}
+
+bd_carlos_trujillo> var Dato13 =  {ID_Ciente: "C1141",Nombre_completo: "Ángela Pinedo Vendrell",Fecha_Nacimiento: "1988-09-11",Direccion: "759 E. Foxrun Ave.",Telefono: "(422) 560-9699",Correo_Electronico: "tellis@yahoo.com",Grupo_Cliente: "B"}
+
+bd_carlos_trujillo> var Dato14 =  {ID_Ciente: "C1154",Nombre_completo: "Reyes Julián Nogués",Fecha_Nacimiento: "1978-04-07",Direccion: "35 The Crescent",Telefono: "(684) 330-1830",Correo_Electronico: "hwestiii@verizon.net",Grupo_Cliente: "C"}
+
+bd_carlos_trujillo> var Dato15 =  {ID_Ciente: "C1158",Nombre_completo: "Palmira Moreno Manzanares",Fecha_Nacimiento: "1973-04-20",Direccion: "7542 Logan Ave.",Telefono: "(844) 204-7819",Correo_Electronico: "suresh@sbcglobal.net",Grupo_Cliente: "C"}
+
+bd_carlos_trujillo> var Dato16 =  {ID_Ciente: "C1161",Nombre_completo: "Ester Anabel Fabregat Nuñez",Fecha_Nacimiento: "1991-06-11",Direccion: "Bass River, NB E4T 4R0",Telefono: "(713) 922-0553",Correo_Electronico: "phish@hotmail.com",Grupo_Cliente: "A"}
+
+bd_carlos_trujillo> var Dato17 =  {ID_Ciente: "C1163",Nombre_completo: "Mayte Isern Gárate",Fecha_Nacimiento: "1979-05-20",Direccion: "4 Mill Road",Telefono: "(859) 270-2403",Correo_Electronico: "kjohnson@gmail.com",Grupo_Cliente: "C"}
+
+bd_carlos_trujillo> var Dato18 =  {ID_Ciente: "C1172",Nombre_completo: "Joan Ferrán Alegria",Fecha_Nacimiento: "1985-01-23",Direccion: "Lake Worth, FL 33463",Telefono: "(923) 361-1596",Correo_Electronico: "skythe@outlook.com",Grupo_Cliente:
+ "A"}
+
+bd_carlos_trujillo> var Dato19 =  {ID_Ciente: "C1184",Nombre_completo: "Anastasio Montesinos García",Fecha_Nacimiento: "1975-02-15",Direccion: "8683 South Drive",Telefono: "(952) 745-8983",Correo_Electronico: "chronos@me.com",Grupo_Cliente:
+ "E"}
+
+bd_carlos_trujillo> var Dato20 =  {ID_Ciente: "C1203",Nombre_completo: "Nidia Ordóñez Cañas",Fecha_Nacimiento: "1970-09-08",Direccion: "W96 8WX",Telefono: "(936) 408-8750",Correo_Electronico: "wmszeliga@att.net",Grupo_Cliente: "D"}
+
+bd_carlos_trujillo> var Dato21 =  {ID_Ciente: "C1211",Nombre_completo: "Daniela Arana",Fecha_Nacimiento: "1996-08-12",Direccion: "86 Logan Dr.",Telefono: "(467) 399-9709",Correo_Electronico: "scarolan@aol.com",Grupo_Cliente: "A"}
+
+bd_carlos_trujillo> var Dato22 =  {ID_Ciente: "C1212",Nombre_completo: "Bruno Cabezas Cordero",Fecha_Nacimiento: "1975-09-13",Direccion: "Donnacona, QC G3M 1C3",Telefono: "(770) 286-4391",Correo_Electronico: "attwood@yahoo.com",Grupo_Cliente: "B"}
+
+bd_carlos_trujillo> var Dato23 =  {ID_Ciente: "C1225",Nombre_completo: "Gala Gimenez-Lasa",Fecha_Nacimiento: "1977-08-30",Direccion: "Riverside, CA 92509",Telefono: "(983) 385-7043",Correo_Electronico: "mobileip@comcast.net",Grupo_Cliente: "D"}
+
+bd_carlos_trujillo> var Dato24 =  {ID_Ciente: "C1226",Nombre_completo: "Filomena Larrañaga Andrade",Fecha_Nacimiento: "1992-09-01",Direccion: "London",Telefono: "(828) 518-2220",Correo_Electronico: "rfisher@hotmail.com",Grupo_Cliente: "B"}
+
+bd_carlos_trujillo> var Dato25 =  {ID_Ciente: "C1229",Nombre_completo: "Jacinta Montenegro Garcés",Fecha_Nacimiento: "1994-03-13",Direccion: "59 Ridgewood Ave.",Telefono: "(969) 383-4277",Correo_Electronico: "yangyan@yahoo.ca",Grupo_Cliente: "D"}
+
+bd_carlos_trujillo> var Dato26 =  {ID_Ciente: "C1243",Nombre_completo: "Telmo Lastra-Cuervo",Fecha_Nacimiento: "1998-02-16",Direccion: "London",Telefono: "(422) 416-4444",Correo_Electronico: "biglou@yahoo.com",Grupo_Cliente: "B"}
+
+bd_carlos_trujillo> var Dato27 =  {ID_Ciente: "C1253",Nombre_completo: "José Cañas Martinez",Fecha_Nacimiento: "1981-03-19",Direccion: "W85 2FV",Telefono: "(860) 430-9246",Correo_Electronico: "frikazoyd@verizon.net",Grupo_Cliente: "E"}
+
+bd_carlos_trujillo> var Dato28 =  {ID_Ciente: "C1260",Nombre_completo: "Chus Merino Casas",Fecha_Nacimiento: "1971-12-11",Direccion: "907 Inverness Dr.",Telefono: "(368) 227-4620",Correo_Electronico: "plover@aol.com",Grupo_Cliente: "E"}
+
+bd_carlos_trujillo> var Dato29 =  {ID_Ciente: "C1262",Nombre_completo: "José Luis Lorenzo Losada",Fecha_Nacimiento: "1988-01-30",Direccion: "8759 Tanglewood Dr.",Telefono: "(465) 963-8317",Correo_Electronico: "singer@att.net",Grupo_Cliente:
+ "E"}
+
+
+
+------------------------------PERMITE VISUALIZAR LOS DATOS DE UNA COLECCION
+
+bd_carlos_trujillo> db.Cliente.find()
+[
+  {
+    _id: ObjectId('6657b0af0659c42c0fcdcdf6'),
+    ID_cliente: 'C1008',
+    Nombre_completo: 'Eutropio Sedano Cabanillas',
+    Fecha_Nacimiento: '1987-10-03',
+    Direccion: 'Cowansville, QC J2K 8Y0',
+    Telefono: '(780) 915-5789',
+    Correo_Electronico: 'crusader@verizon.net',
+    Grupo_Cliente: 'E'
+  },
+  {
+    _id: ObjectId('6657b9e5da93961702cdcdf6'),
+    ID_Ciente: 'C1061',
+    Nombre_completo: 'Nacio Perera Lerma',
+    Fecha_Nacimiento: '1995-08-17',
+    Direccion: 'Port Alberni, BC V9Y 6C7',
+    Telefono: '(591) 540-1501',
+    Correo_Electronico: 'hermes@outlook.com',
+    Grupo_Cliente: 'A'
+  },
+  {
+    _id: ObjectId('6657b9e5da93961702cdcdf7'),
+    ID_Ciente: 'C1062',
+    Nombre_completo: 'Fabio Carnero Boix',
+    Fecha_Nacimiento: '1983-05-04',
+    Direccion: 'Miami, FL 33165',
+    Telefono: '(473) 353-4079',
+    Correo_Electronico: 'pgolle@yahoo.com',
+    Grupo_Cliente: 'B'
+  },
+  {
+    _id: ObjectId('6657b9e5da93961702cdcdf8'),
+    ID_Ciente: 'C1069',
+    Nombre_completo: 'Noemí Carpio Seco',
+    Fecha_Nacimiento: '1973-03-08',
+    Direccion: 'London',
+    Telefono: '(569) 583-5618',
+    Correo_Electronico: 'linuxhack@msn.com',
+    Grupo_Cliente: 'B'
+
+----------------------Ejemplo de los datos ingresados en la coleccion ZONAS
+
+bd_carlos_trujillo> var Zona1 = {ID_Pais: "11", Zona_Venta: "Africa", Pais_Venta: "Afghanistan"}
+
+bd_carlos_trujillo> db.Zonas.insertOne(Zona1)
+{
+  acknowledged: true,
+  insertedId: ObjectId('6657bbacda93961702cdd1ac')
+}
+
+---------------------Ejemplo de los datos ingresados en la coleccion PRODUCTOS
+
+bd_carlos_trujillo> var Producto1 = {ID_Producto: "1", Tipo_Producto: "Snacks"}
+
+bd_carlos_trujillo> db.Productos.insertOne(Producto1)
+{
+  acknowledged: true,
+  insertedId: ObjectId('6657bc40da93961702cdd1ad')
+}
+
+---------------------Ejemplo de los datos ingresados en la coleccion PEDIDOS
+
+bd_carlos_trujillo> var Pedido1 = {ID_Pedido: "242113196", Fecha_pedido: "12/10/2020", Fecha_envío: "30/11/2020", unidades: "Unidades",  Precio_Unitario: " 152,58 €",  Precio_Total: " 843.767,40 €" }
+
+bd_carlos_trujillo> db.Pedidos.insertOne(Pedido1)
+{
+  acknowledged: true,
+  insertedId: ObjectId('6657bce2da93961702cdd1ae')
+}
+
+
+
